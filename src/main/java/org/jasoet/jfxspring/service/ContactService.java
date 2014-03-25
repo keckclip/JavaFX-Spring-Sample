@@ -1,4 +1,4 @@
-package com.zenjava.firstcontact.service;
+package org.jasoet.jfxspring.service;
 
 import java.util.List;
 

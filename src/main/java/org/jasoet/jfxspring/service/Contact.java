@@ -1,4 +1,4 @@
-package com.zenjava.firstcontact.service;
+package org.jasoet.jfxspring.service;
 
 public class Contact
 {

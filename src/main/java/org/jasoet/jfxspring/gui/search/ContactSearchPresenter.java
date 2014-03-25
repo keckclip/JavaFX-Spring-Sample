@@ -1,8 +1,5 @@
-package com.zenjava.firstcontact.gui.search;
+package org.jasoet.jfxspring.gui.search;
 
-import com.zenjava.firstcontact.gui.main.MainPresenter;
-import com.zenjava.firstcontact.service.Contact;
-import com.zenjava.firstcontact.service.ContactService;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Task;
@@ -17,6 +14,9 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.util.Callback;
+import org.jasoet.jfxspring.gui.main.MainPresenter;
+import org.jasoet.jfxspring.service.Contact;
+import org.jasoet.jfxspring.service.ContactService;
 
 import javax.inject.Inject;
 import java.net.URL;

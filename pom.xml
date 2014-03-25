@@ -4,12 +4,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zenjava</groupId>
-    <artifactId>first-contact-spring</artifactId>
-    <name>JFX Contact Management System</name>
+    <groupId>org.jasoet</groupId>
+    <artifactId>jfx-spring</artifactId>
+    <name>JFX Spring Sample App</name>
 
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <dependencies>
 
@@ -36,7 +36,7 @@
 
     </dependencies>
     <build>
-        <finalName>First Contact</finalName>
+        <finalName>JFX Spring Sample</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

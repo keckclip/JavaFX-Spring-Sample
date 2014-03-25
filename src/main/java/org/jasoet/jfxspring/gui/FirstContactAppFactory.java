@@ -1,12 +1,12 @@
-package com.zenjava.firstcontact.gui;
+package org.jasoet.jfxspring.gui;
 
-import com.zenjava.firstcontact.gui.detail.ContactDetailPresenter;
-import com.zenjava.firstcontact.gui.main.MainPresenter;
-import com.zenjava.firstcontact.gui.search.ContactSearchPresenter;
-import com.zenjava.firstcontact.service.ContactService;
-import com.zenjava.firstcontact.service.SimpleContactService;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.JavaFXBuilderFactory;
+import org.jasoet.jfxspring.gui.detail.ContactDetailPresenter;
+import org.jasoet.jfxspring.gui.main.MainPresenter;
+import org.jasoet.jfxspring.gui.search.ContactSearchPresenter;
+import org.jasoet.jfxspring.service.ContactService;
+import org.jasoet.jfxspring.service.SimpleContactService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

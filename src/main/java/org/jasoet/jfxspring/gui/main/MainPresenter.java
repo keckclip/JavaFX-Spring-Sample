@@ -1,10 +1,10 @@
-package com.zenjava.firstcontact.gui.main;
+package org.jasoet.jfxspring.gui.main;
 
-import com.zenjava.firstcontact.gui.detail.ContactDetailPresenter;
-import com.zenjava.firstcontact.gui.search.ContactSearchPresenter;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.layout.BorderPane;
+import org.jasoet.jfxspring.gui.detail.ContactDetailPresenter;
+import org.jasoet.jfxspring.gui.search.ContactSearchPresenter;
 
 import javax.inject.Inject;
 

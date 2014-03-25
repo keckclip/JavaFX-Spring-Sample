@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <VBox fx:id="root"
-      fx:controller="com.zenjava.firstcontact.gui.search.ContactSearchPresenter"
+      fx:controller="org.jasoet.jfxspring.gui.search.ContactSearchPresenter"
       spacing="10"
       xmlns:fx="http://javafx.com/fxml">
 

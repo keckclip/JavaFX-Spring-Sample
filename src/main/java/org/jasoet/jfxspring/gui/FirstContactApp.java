@@ -1,20 +1,17 @@
-package com.zenjava.firstcontact.gui;
+package org.jasoet.jfxspring.gui;
 
-import com.zenjava.firstcontact.gui.main.MainPresenter;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.jasoet.jfxspring.gui.main.MainPresenter;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class FirstContactApp extends Application
-{
-    public static void main(String[] args)
-    {
+public class FirstContactApp extends Application {
+    public static void main(String[] args) {
         launch(args);
     }
 
-    public void start(Stage stage) throws Exception
-    {
+    public void start(Stage stage) throws Exception {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(FirstContactAppFactory.class);
         MainPresenter mainPresenter = context.getBean(MainPresenter.class);
         mainPresenter.showSearchContacts();

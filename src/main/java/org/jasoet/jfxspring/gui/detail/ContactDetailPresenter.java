@@ -1,8 +1,5 @@
-package com.zenjava.firstcontact.gui.detail;
+package org.jasoet.jfxspring.gui.detail;
 
-import com.zenjava.firstcontact.gui.main.MainPresenter;
-import com.zenjava.firstcontact.service.Contact;
-import com.zenjava.firstcontact.service.ContactService;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Task;
@@ -11,6 +8,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
+import org.jasoet.jfxspring.gui.main.MainPresenter;
+import org.jasoet.jfxspring.service.Contact;
+import org.jasoet.jfxspring.service.ContactService;
 
 import javax.inject.Inject;
 
