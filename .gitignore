@@ -1,0 +1,39 @@
+logs
+
+# Eclipse Setting
+/.metadata 
+/Servers 
+.settings 
+.project 
+.classpath 
+.buildpath 
+RemoteSystemsTempFiles 
+bin 
+org.eclipse.jdt.core.prefs
+
+# Maven
+target
+
+# Netbeans Ignore
+nbproject 
+build 
+dist 
+private
+
+#idea project
+.idea 
+*.iml 
+*.iws 
+*.ipr
+
+#Mac OSX
+.DS_Store 
+.AppleDouble 
+.LSOverride
+# Icon must ends with two \r.
+Icon
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
