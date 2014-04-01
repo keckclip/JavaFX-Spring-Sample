@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane id="AnchorPane" fx:id="root"
+            maxHeight="-Infinity"
+            maxWidth="-Infinity"
+            minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="400.0"
+            prefWidth="600.0"
+            xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/2.2" fx:controller="org.jasoet.jfxspring.gui.detail.TestPresenter">
+    <children>
+        <TableView layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="572.0" fx:id="tableView">
+
+            <columns>
+                <TableColumn prefWidth="75.0" text="Nim">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="Column X"/>
+                        <TableColumn prefWidth="75.0" text="Column X"/>
+                    </columns>
+                </TableColumn>
+                <TableColumn prefWidth="75.0" text="Nama" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

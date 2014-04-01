@@ -3,6 +3,7 @@ package org.jasoet.jfxspring.gui;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.JavaFXBuilderFactory;
 import org.jasoet.jfxspring.gui.detail.ContactDetailPresenter;
+import org.jasoet.jfxspring.gui.detail.TestPresenter;
 import org.jasoet.jfxspring.gui.main.MainPresenter;
 import org.jasoet.jfxspring.gui.search.ContactSearchPresenter;
 import org.jasoet.jfxspring.service.ContactService;
@@ -30,6 +31,10 @@ public class FirstContactAppFactory {
         return loadPresenter("/fxml/ContactDetail.fxml");
     }
 
+    @Bean
+    public TestPresenter testPresenter() {
+        return loadPresenter("/fxml/Test.fxml");
+    }
     @Bean
     public ContactService contactService() {
         return new SimpleContactService();
